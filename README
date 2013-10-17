@@ -1,0 +1,12 @@
+dict
+==
+
+dict is a command line dictionary for OS X.
+
+To build dict, run:
+
+    make
+
+After building is complete, you can using `./dict`. To install dict, run:
+
+    make install
