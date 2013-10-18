@@ -7,6 +7,6 @@ To build dict, run:
 
     make
 
-After building is complete, you can using `./dict`. To install dict, run:
+After building is complete, you can use dict by running `./dict`. To install dict, run:
 
     make install
