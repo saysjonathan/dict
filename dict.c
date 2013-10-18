@@ -1,4 +1,3 @@
-#import <locale.h>
 #import <errno.h>
 #import <CoreFoundation/CoreFoundation.h>
 #import <CoreServices/CoreServices.h>
@@ -24,9 +23,6 @@ static char * copyCFString(CFStringRef string) {
 }
 
 int main(int argc, char *argv[]) {
-	char *locale;
-	locale = setlocale(LC_ALL, "");
-
 	if (argc <= 1 || (argc == 2 && argv[1][0] == '-' && argv[1][1] == 'h')) usage();
 
 	for(int i = 1; i < argc; i++) {
